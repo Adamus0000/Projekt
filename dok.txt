@@ -1,0 +1,11 @@
+1 - admin
+2 - wiceadmini
+3 - odczyt,dodanie
+4 - odczyt
+5 - niezalogowani nic
+
+
+Ustalenie co potrzebne z klientem,
+proponujemy rozwiązanie, programujemy urządzenia jak router switch,
+na końcu testowanie sieci.
+W międzyczasie uczymy się zarabiania kabli i gniazd, przygotowujemy sieć strukturalną
