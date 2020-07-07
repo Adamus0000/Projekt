@@ -60,7 +60,7 @@ if($num==1)
         $_SESSION['username']=$up['name'];
         $_SESSION['email']=$email;
    ?> <meta http-equiv="refresh" content="3;url=dane_i_formularz.php" />
-    <div class="login-box" id="asd"><h1 align="center">ZALOGOWANO!</h1></div>
+    <div class="login-box pb-5 mb-5" id="asd"><h1 align="center">ZALOGOWANO!</h1></div>
     <?php
 }
 else
@@ -68,7 +68,7 @@ else
 
 
     ?><meta http-equiv="refresh" content="4;url=login.php" />
-    <div class="login-box" id="asd"><h1 align="center">PODAŁEŚ ZŁY LOGIN LUB HASŁO. PODAJ PONOWNIE</h1></div>
+    <div class="login-box pb-5 mb-5" id="asd"><h1 align="center">PODAŁEŚ ZŁY LOGIN LUB HASŁO. PODAJ PONOWNIE</h1></div>
     <?php
 }
 
