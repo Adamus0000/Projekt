@@ -72,7 +72,7 @@ function lista($plik , $nad = 0)
                     //var_dump($item[$x]);
                 }
                 ?>
-            "<li ><?php echo $e."</hn>"." ";
+            "<li ><?php echo $q." ". $e."</hn>"." ";
                     if(  $_SESSION['wybor']==1) {
                         echo " \n\r <a href='dane_i_formularz.php?delete={$q}'>Usuń</a> ";
                         echo "lub <a href='dane_i_formularz.php?edit={$q}'>Edytuj</a>";
@@ -390,7 +390,7 @@ function dodaj()
                         $animal_name = $row['Treść'];
                         $parent_id = $row['Nr_id'];
 
-                        echo "<option value='$parent_id'>$animal_name
+                        echo "<option value='$parent_id'>$parent_id $animal_name
                     </option>";
 
                     }
